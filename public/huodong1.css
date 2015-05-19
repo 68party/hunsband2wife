@@ -1,0 +1,332 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.page1{
+    background-image: url(images/app-p1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.page2,.page3,.page4,.page5,.page6,.page7{
+    background-image: url(images/app-p2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.page1-top1{
+    position: absolute;
+    top: 144px;
+    left: 50%;
+    margin-left: -45px;
+    width: 90px;
+    height: 20px;
+    background-image: url(images/app-t1.png);
+    background-size: 90px 20px;
+    transform: none;
+    -webkit-animation: fadeInUp 4s ease 1s 1 both;
+    -webkit-animation-play-state: initial;
+
+}
+
+.page1-top2{
+    position: absolute;
+    top: 174px;
+    left: 50%;
+    margin-left: -82px;
+    width: 164px;
+    height: 55px;
+    background-image: url(images/app-t2.png);
+    background-size: 164px 55px;
+    transform: none;
+    -webkit-animation: bounceIn 0.7s ease 0.85s 1 both;
+    -webkit-animation-play-state: initial;
+
+}
+
+.page1-top3{
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    margin-left: -119;
+    width: 238px;
+    height: 38px;
+    background-image: url(images/app-t3.png);
+    background-size: 238px 38px;
+    transform: none;
+    -webkit-animation: zoomIn 3.7s ease 2s 1 both;
+    -webkit-animation-play-state: initial;
+
+}
+
+.page2-top1{
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    margin-left: -83px;
+    width: 166px;
+    height: 104px;
+    background-image: url(images/app-p2-t1.png);
+    background-size: 166px 104px;
+    transform: none;
+    -webkit-animation: fadeInLeft 4s ease 1s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.page2-top2{
+    top: 240px;
+}
+
+.infobtn{
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    margin-left: -33px;
+    width: 66px;
+    height: 20px;
+    background-image: url(images/info-btn.png);
+    background-size: 66px 20px;
+    transform: none;
+    -webkit-animation: fadeInUp 2s ease .8s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page2-top3{
+    position: absolute;
+    top: 368px;
+    right: 0;
+    width: 198px;
+    height: 36px;
+    background-image: url(images/app-p2-t3.png);
+    background-size: 198px 36px;
+    transform: none;
+    -webkit-animation: fadeInRight 1.5s ease .75s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page3-top1{
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -87px;
+    width: 174px;
+    height: 16px;
+    background-image: url(images/app-p3-t1.png);
+    background-size: 174px 16px;
+    transform: none;
+    -webkit-animation: fadeInLeft 2s ease .8s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page3-top2{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -47px;
+    width: 94px;
+    height: 88px;
+    background-image: url(images/app-p3-t2.png);
+    background-size: 94px 88px;
+    transform: none;
+    -webkit-animation: fadeInRight 2s ease .8s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page3-top3{
+    top: 255px;
+}
+
+.page3-top4{
+    position: absolute;
+    top: 366px;
+    right: 0;
+    margin-left: -47px;
+    width: 94px;
+    height: 38px;
+    background-image: url(images/app-p3-t3.png);
+    background-size: 94px 38px;
+    transform: none;
+    -webkit-animation: fadeInDown 2s ease .8s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page4-top1{
+    position: absolute;
+    top: 117px;
+    left: 50%;
+    margin-left: -124px;
+    width: 248px;
+    height: 124px;
+    background-image: url(images/app-p4-t1.png);
+    background-size: 248px 124px;
+    transform: none;
+    -webkit-animation: fadeInUp 2s ease .8s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page4-top2{
+    top: 250px;
+}
+
+.page4-top3{
+    position: absolute;
+    top: 366px;
+    right: 0;
+    margin-left: -47px;
+    width: 210px;
+    height: 36px;
+    background-image: url(images/app-p4-t2.png);
+    background-size: 210px 36px;
+    transform: none;
+    -webkit-animation: fadeInDown 2s ease .8s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page5-top1{
+    position: absolute;
+    top: 126px;
+    left: 50%;
+    margin-left: -53px;
+    width: 106px;
+    height: 112px;
+    background-image: url(images/app-p5-t1.png);
+    background-size: 106px 112px;
+    transform: none;
+    -webkit-animation: fadeInLeft 1.5s ease .65s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page5-top2{
+    top: 250px;
+}
+
+.page5-top3{
+    position: absolute;
+    top: 366px;
+    right: 0;
+    margin-left: -47px;
+    width: 97px;
+    height: 36px;
+    background-image: url(images/app-p5-t2.png);
+    background-size: 97px 36px;
+    transform: none;
+    -webkit-animation: fadeInRight 1.5s ease .6s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page6-top1{
+    position: absolute;
+    top: 124px;
+    left: 50%;
+    margin-left: -55px;
+    width: 110px;
+    height: 104;
+    background-image: url(images/app-p6-t1.png);
+    background-size: 110px 104px;
+    transform: none;
+    -webkit-animation: fadeInDown 1.5s ease .65s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page6-top2{
+    top: 250px;
+}
+
+.page6-top3{
+    position: absolute;
+    top: 366px;
+    right: 0;
+    margin-left: -47px;
+    width: 116px;
+    height: 36px;
+    background-image: url(images/app-p6-t2.png);
+    background-size: 116px 36px;
+    transform: none;
+    -webkit-animation: fadeInUp 1.5s ease .6s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page7-top1{
+    position: absolute;
+    top: 117px;
+    left: 50%;
+    margin-left: -82px;
+    width: 164px;
+    height: 16;
+    background-image: url(images/app-p7-t1.png);
+    background-size: 164px 16px;
+    transform: none;
+    -webkit-animation: fadeInLeft 1.5s ease .65s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page7-top2{
+    position: absolute;
+    top: 142px;
+    left: 50%;
+    margin-left: -53px;
+    width: 106px;
+    height: 124;
+    background-image: url(images/app-p7-t2.png);
+    background-size: 106px 124px;
+    transform: none;
+    -webkit-animation: fadeInRight 1.5s ease .65s 1 both;
+    -webkit-animation-play-state: initial;
+}
+
+.page7-top3{
+    top: 250px;
+}
+
+.page7-top4{
+    position: absolute;
+    top: 366px;
+    right: 0;
+    margin-left: -47px;
+    width: 116px;
+    height: 36px;
+    background-image: url(images/app-p7-t3.png);
+    background-size: 116px 36px;
+    transform: none;
+    -webkit-animation: fadeInRight 1.5s ease .6s 1 both;
+    -webkit-animation-play-state: initial;
+}
