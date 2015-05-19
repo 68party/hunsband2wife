@@ -1,0 +1,92 @@
+.edit_wrapper{
+    background-image: url(images/a.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ed2{
+    background-image: url(images/b.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ed3{
+    background-image: url(images/c.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ed4{
+    background-image: url(images/d.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.ed5{
+    background-image: url(images/e.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+.video_exist{
+    background-color: rgba(3,3,3,.5);
+}
+
+.content3{
+    color: #F25C93;
+    font-size: 22px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.pgsec6{
+    color: #F25C93;
+    font-size: 16;
+    text-align: center;
+    line-height: 22px;
+}
+
+.indexlogo{
+    color: #888;
+    font-size: 16px;
+    line-height: 16px;
+   }
+
+
+.pgsec1{
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+.pgsec2{
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.pgsec3{
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.btn-party-wrap{
+    position: relative;
+}
+
+.btn-party{
+    position: absolute;
+    width: 140px;
+    top:40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    left: 50%;
+    margin-left: -70px;
+    color: #FFFFFF !important;
+    background-color: rgb(242, 92, 147);
+}

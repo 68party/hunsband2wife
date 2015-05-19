@@ -52,6 +52,7 @@ function bindEvent(){
         startX = ev.touches[0].pageX;
         startY = ev.touches[0].pageY;
     }, false);
+
     document.addEventListener('touchend',function (ev) {
         var endX, endY;
         endX = ev.changedTouches[0].pageX;
@@ -106,4 +107,8 @@ function showDown(){
     }
 }
 
+
+var swiper = new Swiper('.swiper-container', {
+    direction: 'vertical'
+});
 
